@@ -1,0 +1,135 @@
+body {
+    background: linear-gradient(rgb(218, 126, 177), rgb(216, 193, 197));
+    background-repeat: no-repeat; 
+    background-position: center;
+    height: 960px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    
+}
+
+.main-inner {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    align-items: center;
+}
+.main-inner-1{
+    color: #ffffff;
+    font-size: 27px;
+}
+
+.main-inner-2{
+    display: flex;
+    column-gap: 20px;
+    font-size: 13px;
+    color: #ffffff;
+    align-items: center;
+
+}
+.main-inner-2 img{
+    max-width: 30px;
+    max-height: 25px;
+    padding-top: 6px;
+}
+.submain{
+    background-image: url('./images/b1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 781px;
+    padding: 30px;
+}
+.sub{
+    padding-top: 40px;
+    padding-left: 10px;
+}
+.sub-1{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 44px;
+}
+.sub-2{
+    font-size: 32px;
+    line-height: 0;
+}
+.sub-3{
+    font-weight: 500;
+    font-size: 17px;
+}
+.active{
+    border-radius: 102px;
+    border: solid 1px #f9024c;
+    width: fit-content;
+    padding: 10px 20px;
+}
+.nxt{
+    display: flex;
+    column-gap: 30px;
+    font-weight: 500;
+    font-size: 8px;
+    padding: 0 10px;
+    margin-top: 100px;
+}
+.nxt-1{
+    border: solid 1px #f9024c;
+    box-sizing: border-box;
+    width: fit-content;
+    padding: 70px 60px;
+    position: relative;
+    
+}
+.nxt-2{
+    border: solid 1px #f9024c;
+    padding: 70px 50px;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 10px rgba(249, 2, 76, 0.4), -2px -2px 13px rgba(249, 2, 76, 0.4);
+    background-color: #ffffff;
+}
+.nxt-1a{ 
+    display: flex;
+    align-items: center;
+}
+.nxt-3 img{
+    height: fit-content;
+}
+
+.nxt-1-img{
+    position: absolute;
+    top: -27%;
+    left: 0;
+}
+.nxt-1b{
+    display: flex;
+    justify-content: space-between;
+    width: fit-content;
+    padding: 0 25px;
+    font-size: 15px;
+    box-sizing: border-box;
+    border-radius: 43px;
+    background: #ff79a1;
+    position: absolute;
+    color: #ffffff;
+    bottom: -7%;
+    left: 25%;
+}
+.nxt-3b{
+    display: flex;
+    justify-content: space-between;
+    width: fit-content;
+    padding: 0 25px;
+    font-size: 15px;
+    box-sizing: border-box;
+    border-radius: 43px;
+    background: #ff79a1;
+    position: relative;
+    color: #ffffff;
+    bottom: -65%;
+}
+.nxt-3a{
+    position: absolute;
+    top: 60%;
+    left: 24%;
+}
